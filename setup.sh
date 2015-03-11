@@ -7,10 +7,13 @@ brew install git svn vim zsh zsh-completions whatmask htop tmux the_silver_searc
 
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
-echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.zshrc
-echo 'export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zshrc
-echo 'export EDITOR="vim"' >> ~/.zshrc
-echo '[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh' >> ~/.zshrc
+if [ ! grep HOMEBREW_CASK_OPTS "~/.zshrc" ]; then
+  echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.zshrc
+  echo 'export PATH=/usr/local/bin:/usr/local/sbin:$PATH' >> ~/.zshrc
+  echo 'export EDITOR="vim"' >> ~/.zshrc
+  echo '[[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh' >> ~/.zshrc
+fi
+
 
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
