@@ -1,4 +1,5 @@
-# macsetup (basic shell script to setup a mac for development)
+# macsetup 
+Basic shell script to setup a mac for development
 
 ## Software installed
 
