@@ -9,6 +9,8 @@ curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | 
 
 echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.zshrc
 
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
 brew tap caskroom/cask; brew install brew-cask; brew update && brew upgrade brew-cask && brew cleanup
 
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
