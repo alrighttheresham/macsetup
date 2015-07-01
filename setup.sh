@@ -20,7 +20,7 @@ brew tap caskroom/cask; brew install brew-cask; brew update && brew upgrade brew
 
 brew cask install qlcolorcode qlstephen qlmarkdown quicklook-json qlprettypatch quicklook-csv betterzipql qlimagesize webpquicklook suspicious-package
 
-brew cask install java dropbox chrome github chicken cyberduck xquartz firefox intellij-idea iterm2 sourcetree virtualbox sublime-text sequel-pro
+brew cask install java7 dropbox chrome github chicken cyberduck xquartz firefox intellij-idea iterm2 sourcetree virtualbox sublime-text sequel-pro
 
 curl http://j.mp/spf13-vim3 -L -o - | sh
 
