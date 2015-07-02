@@ -10,4 +10,4 @@ Basic shell script to setup a mac for development
 
 ## To run
 
-     $  sudo curl -L https://raw.github.com/alrighttheresham/macsetup/master/setup.sh | sh
+     $  curl -L https://raw.github.com/alrighttheresham/macsetup/master/setup.sh | sh
