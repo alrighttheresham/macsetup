@@ -3,7 +3,7 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 brew doctor; brew update
 
-brew install git svn vim zsh zsh-completions whatmask htop tmux the_silver_searcher ctags autojump bash-completion ssh-copy-id tiff2png tree watch wget xz 
+brew install git git-extras svn vim zsh zsh-completions whatmask htop tmux the_silver_searcher ctags autojump bash-completion ssh-copy-id tiff2png tree watch wget xz 
 
 curl -L https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sh
 
